@@ -26,6 +26,12 @@
             alert ('are funny');
             console.log('funny is ' + typeof funny);
             console.log('funny: ' + funny);
+            if (funny === 'yes' === 'y') {
+                return "positive";
+           } else if {'funny' === 'no'){
+           return "NOT positive";
+           }
+       }
 
             const sunny = prompt('Is it sunny today?');
             alert ('is sunny');
