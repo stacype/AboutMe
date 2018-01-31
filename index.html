@@ -14,6 +14,10 @@
             <p>What's your name?</p>
             <p>Do you like icecream?</p>
             <p>Do you have a pet?</p>
+            <p>Are you funny?</p>
+            <p>Is it sunny today?
+            <p>Did you drive today?</p>
+            </p>
         </section>
         <script>
             alert('Hello There');
@@ -24,7 +28,7 @@
             
             const icecream = prompt('Do you like ice cream?');
             alert ('likes ice cream');
-            console.log('likesIcecream is a ' + typeof likesIcecream);
+            console.log('likesIcecream is ' + typeof likesIcecream);
             console.log('likes Icecream: ' + likesIcecream);
             
             function likesIcecream(yes) {
@@ -38,10 +42,15 @@
             console.log(likesIcecream(0));
             // expected output: "NOT positive"
 
-            const pet = prompt('Do you have a pet?');
-            alert ('have pet?');
-            console.log('has a pet ' + typeof pet);
-            console.log('has pet: ' + pet);
+            const funny = prompt('Are you funny?');
+            alert ('are funny');
+            console.log('funny is ' + typeof funny);
+            console.log('funny: ' + funny);
+
+            const pet = prompt('Is it sunny today?');
+            alert ('is sunny');
+            console.log('is sunny ' + typeof sunny);
+            console.log('is sunny: ' + sunny);
 
 
         </script>
