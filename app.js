@@ -14,12 +14,20 @@ console.log('likes Ice cream  ' + typeof string);
 console.log('likes Ice cream: ' + likesIcecream);
 
 const funny = prompt('Are you funny?');
-alert ('is funny ' + funny);
+if (funny === 'yes') {
+    alert ('Wow!');
+} else if (funny == 'no') {
+    alert ('Sorry your not ');
+}
 console.log('funny  ' + typeof string);
 console.log('funny: ' + funny);
 
-const sunny = prompt('Is it sunny today?');
-alert ('is sunny ' + sunny);
+const sunny = prompt('Is it sunny today? ');
+if (sunny === 'yes') {
+    alert ('We\'re so happy! ');
+} else if (sunny == 'no') {
+    alert ('Maybe tomorrow! ');
+}
 console.log('is sunny ' + typeof string);
 console.log('is sunny: ' + sunny);
 
