@@ -13,3 +13,5 @@
             <p> Just type a bunch of stuff. Add some information type so people can learn a bit about what's happening on the site.</P>
     </body>
 </html>
+
+# this is all you need here not all the silly html stuff
