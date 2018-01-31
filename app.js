@@ -28,8 +28,8 @@
             console.log('funny: ' + funny);
             if (funny === 'yes' === 'y') {
                 return "positive";
-           } else if {'funny' === 'no'){
-           return "NOT positive";
+           } else if {'funny'  :'no') 
+           return : "NOT positive";
            }
        }
 
