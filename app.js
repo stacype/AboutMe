@@ -3,7 +3,7 @@
 
 'use strict';
 
-alert('What is this?');
+alert('Still Here!');
 
 const name = prompt('What is your name?');
 
@@ -66,17 +66,14 @@ ask5();
 
 function ask6() {
     for (let i = 0; i < 7; i++) {
-    const guess = parseInt(prompt('How many sarcastic comments can I make in 2 minutes?'));
+    const question6 = parseInt(prompt('How many sarcastic comments can I make in 2 minutes?'));
     // TODO give them 4 guesses, and if they guess correctly, don't ask again
-        if (guess === 0) {
+        if (question6 === 0) {
         alert('Seriously! Have you ever met me?');
-    } else if (guess < 7) {
+    } else if (question6 < 7) {
         alert('Guess again');
-    } else if (guess > 7) {
-        alert('Yep, you must have seen my You Tube Channel');
-    } else if (guess === 7) {
-        alert('Oh Ya, you got it');
-        toVisit.push('sarcastic comments');
+    } else if (question6 === 7) {
+        alert('You must have seen my You Tube Channel');
     }
         break;
     }
