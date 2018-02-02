@@ -18,8 +18,8 @@ const likesBeer = prompt('Do you like Beer?');
 
 if (likesBeer === 'yes') {
         alert ('Me Tooo!');  
-    }  else if (likesBeer =='no') {
-        alert ('Good cause I didn\'t like you anyway');
+    }  else if (likesBeer ==='no') {
+        alert ('Good, more for Me');
 console.log('likes Beer ' + likesBeer);
 }
 
@@ -28,7 +28,7 @@ const funny = prompt('Do you think you are funny?');
 function ask3() {
 if (funny === 'yes') {
     alert ('Get real!');
-} else if (funny == 'no') {
+} else if (funny === 'no') {
     alert ('At least you are honest ');
 }
 console.log('funny: ' + funny);
@@ -39,7 +39,7 @@ const sunny = prompt('Is it sunny today? ');
 function ask4() {
 if (sunny === 'yes') {
     alert ('Are we really in Oregon still! ');
-} else if (sunny == 'no') {
+} else if (sunny === 'no') {
     alert ('Maybe tomorrow! ');
 }
 console.log('is sunny: ' + sunny);
