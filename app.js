@@ -3,7 +3,7 @@
 
 'use strict';
 
-alert('Hello There');
+alert('What is this?');
 
 const name = prompt('What is your name?');
 
@@ -21,12 +21,12 @@ console.log('likes Ice cream: ' + likesIcecream);
 }
 ask2();
 
-const funny = prompt('Are you funny?');
+const funny = prompt('Do you think you are funny?');
 function ask3() {
 if (funny === 'yes') {
-    alert ('Wow!');
+    alert ('Get real!');
 } else if (funny == 'no') {
-    alert ('Sorry your not ');
+    alert ('Atleast you are honest ');
 }
 console.log('funny: ' + funny);
 }
@@ -35,7 +35,7 @@ ask3();
 const sunny = prompt('Is it sunny today? ');
 function ask4() {
 if (sunny === 'yes') {
-    alert ('We\'re so happy! ');
+    alert ('Are we really in Oregon still! ');
 } else if (sunny == 'no') {
     alert ('Maybe tomorrow! ');
 }
@@ -80,3 +80,4 @@ for (let i = 0; i < 7; i++) {
 }
 }
 ask6();
+
