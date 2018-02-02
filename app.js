@@ -14,19 +14,22 @@ function ask1() {
 }
 ask1();
 
-const likesIcecream = prompt('Do you like ice cream?');
-function ask2() {
-alert (name + ' likes Ice cream ' + likesIcecream);
-console.log('likes Ice cream: ' + likesIcecream);
+const likesBeer = prompt('Do you like Beer?');
+
+if (likesBeer === 'yes') {
+        alert ('Me Tooo!');  
+    }  else if (likesBeer =='no') {
+        alert ('Good cause I didn\'t like you anyway');
+console.log('likes Beer ' + likesBeer);
 }
-ask2();
+
 
 const funny = prompt('Do you think you are funny?');
 function ask3() {
 if (funny === 'yes') {
     alert ('Get real!');
 } else if (funny == 'no') {
-    alert ('Atleast you are honest ');
+    alert ('At least you are honest ');
 }
 console.log('funny: ' + funny);
 }
@@ -62,22 +65,20 @@ for (let i = 0; i < 4; i++) {
 ask5();
 
 function ask6() {
-for (let i = 0; i < 7; i++) {
-    const guess = parseInt(prompt('How many weird faces can I make?'));
+    for (let i = 0; i < 7; i++) {
+    const guess = parseInt(prompt('How many sarcastic comments can I make in 2 minutes?'));
     // TODO give them 4 guesses, and if they guess correctly, don't ask again
-    if (guess === 0) {
+        if (guess === 0) {
         alert('Seriously! Have you ever met me?');
     } else if (guess < 7) {
         alert('Guess again');
     } else if (guess > 7) {
         alert('Yep, you must have seen my You Tube Channel');
     } else if (guess === 7) {
-        alert('Oh Ya, you got it');{
-        toVisit.push('weird faces');
-        }
+        alert('Oh Ya, you got it');
+        toVisit.push('sarcastic comments');
+    }
         break;
     }
 }
-}
 ask6();
-
