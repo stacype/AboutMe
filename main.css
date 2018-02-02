@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hello World</title>
-    </head>
-    <body>
-        <section>
-            <h1>Hello There!</h1>
-            <p>How are you today?</p>
-        </section>
-        
-    </body>
-</html>
+
+h1{
+    color:rgb(22, 71, 20);
+}
+
+h2{
+    color:rgb(56, 121, 99);
+    }
+body{background-color: rgb(180, 146, 102)}
